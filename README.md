@@ -1,4 +1,16 @@
 # PSO-CNN
+
+## This is a simulation of 5 Random Generated Population
+Trained each model saved each best epoch
+updated csv on each completion of model training and evaluation
+## Fitness Function
+ Accuracy+(1-loss)*5
+
+## Design Constraints
+4 Layers Fully Connected, Each Layer is a multiple of 8 min of 8 maximum of 64 
+
+
+
 ```
 Popualtion Shape :  (5, 11)
 [24.   48.   24.   48.    0.4   0.2   0.82  0.9   1.    0.    0.  ]
