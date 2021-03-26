@@ -1,2 +1,5 @@
 /IMAGE_TO_PROCESS
 /MODEL_DATA
+*.csv
+*.PNG
+*.npy
