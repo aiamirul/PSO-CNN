@@ -1,5 +1,13 @@
 # PSO-CNN
 
+## 2 Step How to use this code
+```
+1. Extract Data from a collection of .png to dataset in .npy, labels are generated using folder names in direcytory IMAGE_TO_PROCESS
+2. The Extraction process will resize the image to 224 x 224 x 3 and stack them into a numpy ndarray, Outputs 2 Files Label.npy and Data.npy classes of 0 or 1
+3. Once ready Load the data & labels in PSO FulL Recamp.ipynb Loads (Path inside the folder MODEL_DATA rename Data.npy to X.npy and Labels.npy to y.npy) 
+4. Run The code from start to end the code wil lgenerate a new folder with timestamp to save all models generated inside with the csv of population and updated position based on the global best 
+
+```
 ## This is a simulation of 5 Random Generated Population
 Trained each model saved each best epoch
 updated csv on each completion of model training and evaluation
